@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Modern Login Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    
+    <div class="container-fluid" id="regContainer">
+        <div class="reg-form">
+            <form id="myForm" action="#" method="post">
+                <h1>Registration Form</h1>
+                <div id="statusContainer"></div>
+                <div class="reg-group">
+                    <label class="myLabel" for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter Your Full Name" required>
+                </div>
+    
+                <div class="reg-group">
+                    <label class="myLabel" for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter Your Email:" required>
+                </div>
+    
+                <div class="reg-group">
+                    <label class="myLabel" for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter Your Password" required>
+                </div>
+                <button type="submit" class="reg-btn">Register</button>
+                <span> Do you have an account?</span>
+                <a href="login.html" class="login-link">Login</a>
+            </form>
+        </div>
+    </div>
+  
+  </body>
+</html>
